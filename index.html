@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="catFactsApp">
+<head>
+  <title>Cat Fact Generator</title>
+</head>
+  <body>
+    <section ng-controller="CatController as catCtrl">
+      <h1>{{catCtrl.title}}</h1>
+      <button ng-click="catCtrl.gimmeAFact()">GET CAT FACT</button>
+      <br />
+      <br />
+      <div>
+        {{catCtrl.text}}
+      </div>
+    </section>
+  </body>
+  <script src="/node_modules/angular/angular.js"></script>
+<script type="text/javascript" src="entry.js"></script>
+</html>
