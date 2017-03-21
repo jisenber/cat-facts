@@ -1,0 +1,11 @@
+{
+  "name": "cat-facts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jisenber/cat-facts.git",
+  "author": "jisenber <isenberg.jacob@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.3"
+  }
+}
