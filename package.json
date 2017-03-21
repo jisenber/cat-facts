@@ -6,6 +6,9 @@
   "author": "jisenber <isenberg.jacob@yahoo.com>",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.6.3"
+    "angular": "^1.6.3",
+    "express": "^4.15.2",
+    "live-server": "^1.2.0",
+    "request": "^2.81.0"
   }
 }
